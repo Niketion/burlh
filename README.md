@@ -35,13 +35,18 @@ Kubernetes pods, recovery shells, or systems without standard networking tools.
 ## Usage
 
 Basic request
-`burlh http://example.com`
+```
+burlh http://example.com
+```
 
 With path
-`burlh http://example.com/index.html`
+```
+burlh http://example.com/index.html
+```
 
 With custom headers
 ```burlh http://example.com "User-Agent: burlh/1.0"
 
 burlh http://example.com \
-  "Authorization: Bearer TOKEN123"```
+  "Authorization: Bearer TOKEN123"
+```
